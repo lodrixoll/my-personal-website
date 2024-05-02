@@ -36,7 +36,7 @@ const Home: React.FC = () => {
             </div>
             <div className="row justify-content-center my-5 text-white">
                 <div className="col-auto">
-                    <h1 className="pb-3">What I am up to</h1>
+                    <h1 className="pb-5 text-center">What I am up to...</h1>
 
                     <div className="col-12 pb-5">
                         <h3 className="pb-3">🛠️ Building AI & ML Solutions</h3>
@@ -76,12 +76,12 @@ const Home: React.FC = () => {
                     </div>
 
                     <div className="col-12 pb-5">
-                        <h3 className="pb-3">🚀 Putting stuff on the internet</h3>
-                        <img src="/images/icons/vercel.svg" alt="Vercel" className="img-fluid mx-2" style={{ width: '75px', height: '75px', borderRadius: '10%' }} />
+                        <h3 className="pb-3">🚀 Deploying Stuff on the Internet</h3>
                         <img src="/images/icons/heroku.jpg" alt="Heroku" className="img-fluid mx-2" style={{ width: '75px', height: '75px', borderRadius: '10%' }} />
-                        <img src="/images/icons/github.png" alt="GitHub" className="img-fluid mx-2" style={{ width: '75px', height: '75px', borderRadius: '10%' }} />
-                        <img src="/images/icons/docker.webp" alt="Docker" className="img-fluid mx-2" style={{ width: '75px', height: '75px', borderRadius: '10%' }} />
-                        <img src="/images/icons/cicd.png" alt="CI/CD" className="img-fluid mx-2" style={{ width: '75px', height: '75px', borderRadius: '10%' }} />
+                        <img src="/images/icons/docker.webp" alt="Docker" className="img-fluid mx-2" style={{ width: '75px', height: '75px'}} />
+                        <img src="/images/icons/vercel.svg" alt="Vercel" className="img-fluid mx-2" style={{ width: '75px', height: '75px'}} />
+                        <img src="/images/icons/github.png" alt="GitHub" className="img-fluid mx-2" style={{ width: '75px', height: '75px'}} />
+                        <img src="/images/icons/cicd.png" alt="CI/CD" className="img-fluid mx-2" style={{ width: '75px', height: '75px'}} />
                     </div>
                 </div>
             </div>
