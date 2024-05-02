@@ -5,12 +5,24 @@ const Home: React.FC = () => {
         <div className="container">
             <div className="row justify-content-center my-5">
                 <div className="col-auto">
-                    <button className="btn btn-outline-primary mx-2 text-white">Home</button>
-                    <button className="btn btn-outline-primary mx-2 text-white">About</button>
-                    <button className="btn btn-outline-primary mx-2 text-white">Projects</button>
-                    <button className="btn btn-outline-primary mx-2 text-white">GitHub</button>
-                    <button className="btn btn-outline-primary mx-2 text-white">LinkedIn</button>
-                    <button className="btn btn-outline-primary mx-2 text-white">Resume</button>
+                    <a href="/">
+                        <button className="btn btn-outline-primary mx-2 text-white">Home</button>
+                    </a>
+                    <a href="#">
+                        <button className="btn btn-outline-primary mx-2 text-white">About</button>
+                    </a>
+                    <a href="#">
+                        <button className="btn btn-outline-primary mx-2 text-white">Projects</button>
+                    </a>
+                    <a href="https://github.com/lodrixoll" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-outline-primary mx-2 text-white">GitHub</button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/liam-o-driscoll/" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-outline-primary mx-2 text-white">LinkedIn</button>
+                    </a>
+                    <a href="/resume" target="_blank" rel="noopener noreferrer">
+                        <button className="btn btn-outline-primary mx-2 text-white">Resume</button>
+                    </a>
                 </div>
             </div>
             <div className="row justify-content-center my-5">
