@@ -20,7 +20,7 @@ const Home: React.FC = () => {
                     <a href="https://www.linkedin.com/in/liam-o-driscoll/" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-outline-primary mx-2 text-white">LinkedIn</button>
                     </a>
-                    <a href="/resume" target="_blank" rel="noopener noreferrer">
+                    <a href="/resume" rel="noopener noreferrer">
                         <button className="btn btn-outline-primary mx-2 text-white">Resume</button>
                     </a>
                 </div>
