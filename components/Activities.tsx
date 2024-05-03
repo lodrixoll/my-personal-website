@@ -3,7 +3,7 @@ import React from 'react';
 const Activities = () => {
     return (
         <div className="container my-5">
-            <h1 className="pb-5 text-center text-white">What I am up to...</h1>
+            {/* <h1 className="pb-5 text-center text-white">What I am up to...</h1> */}
             <div className="row justify-content-center">
                 {/* Card for Building AI & ML Solutions */}
                 <div className="col-lg-6 col-sm-12 mb-4">
