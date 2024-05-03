@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <>
           <Head>
               <link rel="icon" href="/images/icons/favicon.png" />
-              <title>Liam O'Driscoll | Portfolio</title>
+              <title>Liam O&apos;Driscoll | Portfolio</title>
           </Head>
           <Component {...pageProps} />
         </>
