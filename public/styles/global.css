@@ -2,3 +2,7 @@ body {
     background-color: #212529 !important;
 }
 
+.container.clamp {
+    max-width: 800px;
+    margin: 0 auto;
+}
