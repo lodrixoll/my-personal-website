@@ -8,10 +8,7 @@ const Navbar = () => {
                     <Link href="/">
                         <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">Home</button>
                     </Link>
-                    {/* <Link href="#">
-                        <button className="btn btn-outline-primary mx-2 text-white">About</button>
-                    </Link> */}
-                    <Link href="#">
+                    <Link href="/projects">
                         <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">Projects</button>
                     </Link>
                     <Link href="https://github.com/lodrixoll" target="_blank" rel="noopener noreferrer">
