@@ -11,6 +11,9 @@ const Navbar = () => {
                     <Link href="/projects">
                         <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">Projects</button>
                     </Link>
+                    <Link href="/resume" rel="noopener noreferrer">
+                        <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">Resume</button>
+                    </Link>
                     <Link href="https://github.com/lodrixoll" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">GitHub</button>
                     </Link>
@@ -19,9 +22,6 @@ const Navbar = () => {
                     </Link>
                     <Link href="mailto:lodrixoll@gmail.com" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">Email</button>
-                    </Link>
-                    <Link href="/resume" rel="noopener noreferrer">
-                        <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">Resume</button>
                     </Link>
                 </div>
             </div>
