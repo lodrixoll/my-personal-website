@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Image from 'next/image';
 
 const Projects = () => {
     return (
@@ -8,7 +9,7 @@ const Projects = () => {
             <div className="container mt-5">
                 <div className="row justify-content-center align-items-center">
                     <div className="col-auto">
-                        <img src="/images/icons/web-development.png" alt="web development" className="img-fluid" style={{ width: '100px', height: '100px' }}/>
+                        <Image src="/images/icons/web-development.png" alt="web development" width={100} height={100}/>
                     </div>
                     <h1 className="text-white">Projects</h1>
                 </div>

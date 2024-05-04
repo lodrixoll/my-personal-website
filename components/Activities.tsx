@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Activities = () => {
     return (
@@ -9,14 +10,14 @@ const Activities = () => {
                     <div className="card bg-secondary text-white">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>🛠️ Building AI & ML Solutions</h5>
-                            <img src="/images/icons/openai.png" alt="OpenAI" className="img-fluid mx-2 mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="OpenAI" style={{ width: '50px', height: '50px' }} />
-                            <img src="/images/icons/llama-index.jpeg" alt="LlamaIndex" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px', borderRadius: '10%' }} />
-                            <img src="/images/icons/supabase.png" alt="Supabase" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/tensorflow.png" alt="TensorFlow" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/keras.png" alt="Keras" className="img-fluid mx-2" style={{ width: '50px', height: '50px', borderRadius: '10%' }} />
-                            <img src="/images/icons/pytorch.png" alt="PyTorch" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/opencv.png" alt="OpenCV" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/python.png" alt="Python" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
+                            <Image src="/images/icons/openai.png" alt="OpenAI" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/llama-index.jpeg" alt="LlamaIndex" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src="/images/icons/supabase.png" alt="Supabase" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/tensorflow.png" alt="TensorFlow" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/keras.png" alt="Keras" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
+                            <Image src="/images/icons/pytorch.png" alt="PyTorch" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src="/images/icons/opencv.png" alt="OpenCV" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src="/images/icons/python.png" alt="Python" width={50} height={50} className="img-fluid mx-2"/>
                         </div>
                     </div>
                 </div>
@@ -25,14 +26,14 @@ const Activities = () => {
                     <div className="card bg-secondary text-white">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>🎨 Creating Beautiful & Fast UI</h5>
-                            <img src="/images/icons/figma.png" alt="Figma" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/bootstrap.png" alt="Bootstrap" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px', borderRadius: '10%' }} />
-                            <img src="/images/icons/tailwind.png" alt="Tailwind" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px', borderRadius: '10%' }} />
-                            <img src="/images/icons/nextjs.png" alt="Next.js" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/react.png" alt="React" className="img-fluid mx-2" style={{ width: '50px', height: '50px', borderRadius: '10%'}} />
-                            <img src="/images/icons/javascript.png" alt="JavaScript" className="img-fluid mx-2" style={{ width: '50px', height: '50px', borderRadius: '10%'}} />
-                            <img src="/images/icons/css.png" alt="CSS" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/html.png" alt="HTML" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
+                            <Image src="/images/icons/figma.png" alt="Figma" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/bootstrap.png" alt="Bootstrap" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src="/images/icons/tailwind.png" alt="Tailwind" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src="/images/icons/nextjs.png" alt="Next.js" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/react.png" alt="React" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%'}}/>
+                            <Image src="/images/icons/javascript.png" alt="JavaScript" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%'}}/>
+                            <Image src="/images/icons/css.png" alt="CSS" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src="/images/icons/html.png" alt="HTML" width={50} height={50} className="img-fluid mx-2"/>
                         </div>
                     </div>
                 </div>
@@ -41,14 +42,14 @@ const Activities = () => {
                     <div className="card bg-secondary text-white">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>💻 Developing Full Stack Apps</h5>
-                            <img src="/images/icons/node.png" alt="Node" className="img-fluid mx-2 mb-3" style={{ width: '150x', height: '50px'}} />
-                            <img src="/images/icons/express.png" alt="Express" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/php.png" alt="PHP" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px', borderRadius: '10%' }} />
-                            <img src="/images/icons/laravel.png" alt="Laravel" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/mysql.png" alt="MySQL" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/postgresql.webp" alt="PostgreSQL" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/mongodb.png" alt="MongoDB" className="img-fluid mx-2" style={{ width: '50px', height: '50px', borderRadius: '10%' }} />
-                            <img src="/images/icons/firebase.png" alt="Firebase" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
+                            <Image src="/images/icons/node.png" alt="Node" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/express.png" alt="Express" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/php.png" alt="PHP" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src="/images/icons/laravel.png" alt="Laravel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/mysql.png" alt="MySQL" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src="/images/icons/postgresql.webp" alt="PostgreSQL" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src="/images/icons/mongodb.png" alt="MongoDB" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
+                            <Image src="/images/icons/firebase.png" alt="Firebase" width={50} height={50} className="img-fluid mx-2"/>
                         </div>
                     </div>
                 </div>
@@ -57,11 +58,11 @@ const Activities = () => {
                     <div className="card bg-secondary text-white">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>🚀 Deploying Stuff</h5>
-                            <img src="/images/icons/heroku.jpg" alt="Heroku" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px', borderRadius: '10%' }} />
-                            <img src="/images/icons/docker.webp" alt="Docker" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/vercel.svg" alt="Vercel" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/github.png" alt="GitHub" className="img-fluid mx-2 mb-3" style={{ width: '50px', height: '50px'}} />
-                            <img src="/images/icons/cicd.png" alt="CI/CD" className="img-fluid mx-2" style={{ width: '50px', height: '50px'}} />
+                            <Image src="/images/icons/heroku.jpg" alt="Heroku" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src="/images/icons/docker.webp" alt="Docker" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/vercel.svg" alt="Vercel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/github.png" alt="GitHub" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src="/images/icons/cicd.png" alt="CI/CD" width={50} height={50} className="img-fluid mx-2"/>
                         </div>
                     </div>
                 </div>
