@@ -9,7 +9,7 @@ import python from './python.png';
 import figma from './figma.png';
 import bootstrap from './bootstrap.png';
 import tailwind from './tailwind.png';
-import nextjs from './nextjs.png';
+import nextjs from './nextjs.svg';
 import reactIcon from './react.png';
 import javascript from './javascript.png';
 import node from './node.png';
@@ -23,7 +23,7 @@ import firebase from './firebase.png';
 import heroku from './heroku.jpg';
 import docker from './docker.webp';
 import vercel from './vercel.svg';
-import github from './github.png';
+import github from './github.svg';
 import typescript from './typescript.png';
 
 const Icons = {
