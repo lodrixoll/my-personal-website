@@ -1,32 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import openai from '../public/images/icons/openai.png';
-import llamaIndex from '../public/images/icons/llama-index.jpeg';
-import supabase from '../public/images/icons/supabase.png';
-import tensorflow from '../public/images/icons/tensorflow.png';
-import keras from '../public/images/icons/keras.png';
-import pytorch from '../public/images/icons/pytorch.png';
-import opencv from '../public/images/icons/opencv.png';
-import python from '../public/images/icons/python.png';
-import figma from '../public/images/icons/figma.png';
-import bootstrap from '../public/images/icons/bootstrap.png';
-import tailwind from '../public/images/icons/tailwind.png';
-import nextjs from '../public/images/icons/nextjs.png';
-import reactIcon from '../public/images/icons/react.png';
-import javascript from '../public/images/icons/javascript.png';
-import node from '../public/images/icons/node.png';
-import express from '../public/images/icons/express.png';
-import php from '../public/images/icons/php.png';
-import laravel from '../public/images/icons/laravel.png';
-import mysql from '../public/images/icons/mysql.png';
-import postgresql from '../public/images/icons/postgresql.webp';
-import mongodb from '../public/images/icons/mongodb.png';
-import firebase from '../public/images/icons/firebase.png';
-import heroku from '../public/images/icons/heroku.jpg';
-import docker from '../public/images/icons/docker.webp';
-import vercel from '../public/images/icons/vercel.svg';
-import github from '../public/images/icons/github.png';
-import typescript from '../public/images/icons/typescript.png';
+import Icons from '../public/images/icons/index';
 
 const Activities = () => {
     return (
@@ -37,14 +11,14 @@ const Activities = () => {
                     <div className="card bg-secondary text-white h-100">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>🛠️ Building AI & ML Solutions</h5>
-                            <Image src={openai} alt="OpenAI" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={llamaIndex} alt="LlamaIndex" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
-                            <Image src={tensorflow} alt="TensorFlow" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={keras} alt="Keras" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
-                            <Image src={supabase} alt="Supabase" width={50} height={50} className="img-fluid mx-2"/>
-                            <Image src={python} alt="Python" width={50} height={50} className="img-fluid mx-2"/>
-                            <Image src={pytorch} alt="PyTorch" width={50} height={50} className="img-fluid mx-2"/>
-                            <Image src={opencv} alt="OpenCV" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.openai} alt="OpenAI" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.llamaIndex} alt="LlamaIndex" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.tensorflow} alt="TensorFlow" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.keras} alt="Keras" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.supabase} alt="Supabase" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.python} alt="Python" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.pytorch} alt="PyTorch" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.opencv} alt="OpenCV" width={50} height={50} className="img-fluid mx-2"/>
                         </div>
                     </div>
                 </div>
@@ -53,14 +27,14 @@ const Activities = () => {
                     <div className="card bg-secondary text-white h-100">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>💻 Developing Full Stack Apps</h5>
-                            <Image src={node} alt="Node" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={mongodb} alt="MongoDB" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
-                            <Image src={mysql} alt="MySQL" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={laravel} alt="Laravel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={express} alt="Express" width={50} height={50} className="img-fluid mx-2"/>
-                            <Image src={firebase} alt="Firebase" width={50} height={50} className="img-fluid mx-2"/>
-                            <Image src={postgresql} alt="PostgreSQL" width={50} height={50} className="img-fluid mx-2"/>
-                            <Image src={php} alt="PHP" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.node} alt="Node" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.mongodb} alt="MongoDB" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.mysql} alt="MySQL" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.laravel} alt="Laravel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.express} alt="Express" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.firebase} alt="Firebase" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.postgresql} alt="PostgreSQL" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.php} alt="PHP" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
                         </div>
                     </div>
                 </div>
@@ -69,13 +43,13 @@ const Activities = () => {
                     <div className="card bg-secondary text-white h-100">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>🎨 Creating Beautiful & Fast UI</h5>
-                            <Image src={nextjs} alt="Next.js" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={reactIcon} alt="React" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%'}}/>
-                            <Image src={typescript} alt="TypeScript" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
-                            <Image src={javascript} alt="JavaScript" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%'}}/>
-                            <Image src={figma} alt="Figma" width={50} height={50} className="img-fluid mx-2"/>
-                            <Image src={tailwind} alt="Tailwind" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
-                            <Image src={bootstrap} alt="Bootstrap" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.nextjs} alt="Next.js" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.reactIcon} alt="React" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%'}}/>
+                            <Image src={Icons.typescript} alt="TypeScript" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.javascript} alt="JavaScript" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%'}}/>
+                            <Image src={Icons.figma} alt="Figma" width={50} height={50} className="img-fluid mx-2"/>
+                            <Image src={Icons.tailwind} alt="Tailwind" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.bootstrap} alt="Bootstrap" width={50} height={50} className="img-fluid mx-2" style={{ borderRadius: '10%' }}/>
                             
                         </div>
                     </div>
@@ -85,10 +59,10 @@ const Activities = () => {
                     <div className="card bg-secondary text-white h-100">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>🚀 Deploying Stuff</h5>
-                            <Image src={heroku} alt="Heroku" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
-                            <Image src={docker} alt="Docker" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={vercel} alt="Vercel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={github} alt="GitHub" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.heroku} alt="Heroku" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
+                            <Image src={Icons.docker} alt="Docker" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.vercel} alt="Vercel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.github} alt="GitHub" width={50} height={50} className="img-fluid mx-2 mb-3"/>
                         </div>
                     </div>
                 </div>
