@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Head>
               <link rel="icon" href="/images/icons/favicon.png" />
               <title>Liam O&apos;Driscoll | Portfolio</title>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
           </Head>
           <Component {...pageProps} />
         </>
