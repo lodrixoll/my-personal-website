@@ -20,7 +20,7 @@ import mysql from './mysql.svg';
 import postgresql from './postgresql.svg';
 import mongodb from './mongodb.svg';
 import firebase from './firebase.svg';
-import heroku from './heroku.jpg';
+import heroku from './heroku.svg';
 import docker from './docker.svg';
 import vercel from './vercel.svg';
 import github from './github.svg';
