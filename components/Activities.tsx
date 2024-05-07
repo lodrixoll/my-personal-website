@@ -59,10 +59,10 @@ const Activities = () => {
                     <div className="card bg-secondary text-white h-100">
                         <div className="card-body">
                             <h5 className="card-title pb-3" style={{ color: '#007BFF' }}>🚀 Deploying Stuff</h5>
+                            <Image src={Icons.github} alt="GitHub" width={50} height={50} className="img-fluid mx-2 mb-3"/>
+                            <Image src={Icons.vercel} alt="Vercel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
                             <Image src={Icons.heroku} alt="Heroku" width={50} height={50} className="img-fluid mx-2 mb-3" style={{ borderRadius: '10%' }}/>
                             <Image src={Icons.docker} alt="Docker" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={Icons.vercel} alt="Vercel" width={50} height={50} className="img-fluid mx-2 mb-3"/>
-                            <Image src={Icons.github} alt="GitHub" width={50} height={50} className="img-fluid mx-2 mb-3"/>
                         </div>
                     </div>
                 </div>
