@@ -6,12 +6,10 @@ import '../public/styles/bootstrap.css';
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
-          <Head>
-              <link rel="icon" href="/images/icons/favicon.svg" />
-              <title>Liam O&apos;Driscoll | Portfolio</title>
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-          </Head>
-          <Component {...pageProps} />
+            <Head>
+                <title>Liam O&apos;Driscoll | Portfolio</title>
+            </Head>
+            <Component {...pageProps} />
         </>
     );
 }
