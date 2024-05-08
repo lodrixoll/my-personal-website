@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Image from 'next/image';
+import Icons from '../public/images/icons/index';
 
 const Projects = () => {
     return (
@@ -9,7 +10,7 @@ const Projects = () => {
             <div className="container mt-5">
                 <div className="row justify-content-center align-items-center">
                     <div className="col-auto">
-                        <Image src="/images/icons/web-development.png" alt="web development" width={100} height={100}/>
+                        <Image src={Icons.webDevelopment} alt="web development" width={100} height={100}/>
                     </div>
                     <h1 className="text-white">Projects</h1>
                 </div>

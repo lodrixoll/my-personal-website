@@ -25,11 +25,12 @@ import docker from './docker.svg';
 import vercel from './vercel.svg';
 import github from './github.svg';
 import typescript from './typescript.svg';
+import webDevelopment from './web-development.svg';
 
 const Icons = {
     openai, llamaIndex, supabase, tensorflow, keras, pytorch, opencv, python, figma, bootstrap,
     tailwind, nextjs, reactIcon, javascript, node, express, php, laravel, mysql, postgresql,
-    mongodb, firebase, heroku, docker, vercel, github, typescript
+    mongodb, firebase, heroku, docker, vercel, github, typescript, webDevelopment
 };
 
 export default Icons;
