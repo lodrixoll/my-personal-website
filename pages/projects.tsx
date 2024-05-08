@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import Image from 'next/image';
 import Icons from '../public/images/icons/index';
 import Link from 'next/link';
-import '../public/styles/projects.css';
 
 const Projects = () => {
     const projects = [
