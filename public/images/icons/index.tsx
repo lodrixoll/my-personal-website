@@ -26,11 +26,21 @@ import vercel from './vercel.svg';
 import github from './github.svg';
 import typescript from './typescript.svg';
 import webDevelopment from './web-development.svg';
+import trustloop from './trustloop.png';
+import recall from './recall.png';
+import aitc from './aitc.png';
+import favicon from './favicon.svg';
+import firetexts from './firetexts.jpg';
+import flutter from './flutter.svg';
+import copyninja from './copyninja.webp';
+import zy from './zy.jpg';
+
 
 const Icons = {
     openai, llamaIndex, supabase, tensorflow, keras, pytorch, opencv, python, figma, bootstrap,
     tailwind, nextjs, reactIcon, javascript, node, express, php, laravel, mysql, postgresql,
-    mongodb, firebase, heroku, docker, vercel, github, typescript, webDevelopment
+    mongodb, firebase, heroku, docker, vercel, github, typescript, webDevelopment, trustloop,
+    recall, aitc, favicon, firetexts, flutter, copyninja, zy
 };
 
 export default Icons;
