@@ -7,9 +7,9 @@ import Link from 'next/link';
 const Projects = () => {
     const projects = [
         { id: 1, icons: [Icons.trustloop, Icons.laravel, Icons.php, Icons.mysql, Icons.bootstrap], title: 'TrustLoop', description: 'Reputation management built for SAAS.', link: 'https://www.trustloop.co/' },
-        { id: 2, icons: [Icons.recall, Icons.openai, Icons.node, Icons.express, Icons.mongodb], title: 'Recall', description: 'Revisit any conversation.', link: 'https://www.recall-app.xyz/' },
-        { id: 3, icons: [Icons.aitc, Icons.openai, Icons.node, Icons.express, Icons.mongodb, Icons.tailwind], title: 'AITC', description: 'Real Estate Contract Compliance', link: 'https://github.com/lodrixoll/AITC-Server' },
-        { id: 4, icons: [Icons.favicon, Icons.nextjs, Icons.typescript, Icons.bootstrap], title: 'my-personal-website', description: 'This website. Feel free to clone it.', link: 'https://github.com/lodrixoll/my-personal-website' },
+        { id: 2, icons: [Icons.recall, Icons.openai, Icons.node, Icons.express, Icons.mongodb, Icons.reactIcon], title: 'Recall', description: 'Revisit any conversation.', link: 'https://www.recall-app.xyz/' },
+        { id: 3, icons: [Icons.aitc, Icons.openai, Icons.node, Icons.express, Icons.mongodb, Icons.reactIcon, Icons.tailwind], title: 'AITC', description: 'Real Estate Contract Compliance', link: 'https://github.com/lodrixoll/AITC-Server' },
+        { id: 4, icons: [Icons.favicon, Icons.vercel, Icons.nextjs, Icons.typescript, Icons.bootstrap], title: 'my-personal-website', description: 'This website. Feel free to clone it.', link: 'https://github.com/lodrixoll/my-personal-website' },
         { id: 5, icons: [Icons.zy, Icons.laravel, Icons.php, Icons.mysql, Icons.reactIcon], title: 'ZY', description: 'Dropship any amazon product on your store.', link: 'https://apps.shopify.com/amazon-post-purchase-upsell' },
         { id: 6, icons: [Icons.copyninja, Icons.openai, Icons.node, Icons.postgresql, Icons.reactIcon ], title: 'CopyNinja', description: 'Smart SEO content generation for ecommerce.', link: 'https://apps.shopify.com/copyninja' },
         { id: 7, icons: [Icons.firetexts, Icons.openai, Icons.node, Icons.flutter, Icons.firebase], title: 'FireTexts', description: 'Automated sms messaging.', link: 'https://www.firetexts.co/' },
