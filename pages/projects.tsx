@@ -33,13 +33,13 @@ const Projects = () => {
                         <div className="col-md-6 mb-4" key={project.id}>
                             <div className="card bg-secondary text-white h-100 project-card">
                                 <div className="d-flex">
-                                    <Image src={project.icons[0]} alt={project.title} width={100} height={100} className="my-auto" style={{marginLeft: '20px'}}/>
+                                    <Image src={project.icons[0]} alt={project.title} width={100} height={100} className="my-auto" style={{marginLeft: '20px', borderRadius: '10%'}}/>
                                     <div className="card-body">
                                         <h5 className="card-title mt-2">{project.title}</h5>
                                         <p className="card-text">{project.description}</p>
                                         <div className="d-flex justify-content-start align-items-center mb-2">
                                             {project.icons.slice(1).map((icon, index) => (
-                                                <Image key={index} src={icon} alt={`${project.title} technology`} width={30} height={30} className="img-fluid mx-2"/>
+                                                <Image key={index} src={icon} alt={`${project.title} technology`} width={30} height={30} className="img-fluid mx-2" style={{borderRadius: '10%'}}/>
                                             ))}
                                         </div>
                                     </div>
