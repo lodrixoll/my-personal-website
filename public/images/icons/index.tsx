@@ -34,13 +34,14 @@ import firetexts from './firetexts.jpg';
 import flutter from './flutter.svg';
 import copyninja from './copyninja.webp';
 import zy from './zy.jpg';
+import docdoc from './docdoc.svg';
 
 
 const Icons = {
     openai, llamaIndex, supabase, tensorflow, keras, pytorch, opencv, python, figma, bootstrap,
     tailwind, nextjs, reactIcon, javascript, node, express, php, laravel, mysql, postgresql,
     mongodb, firebase, heroku, docker, vercel, github, typescript, webDevelopment, trustloop,
-    recall, aitc, favicon, firetexts, flutter, copyninja, zy
+    recall, aitc, favicon, firetexts, flutter, copyninja, zy, docdoc
 };
 
 export default Icons;
