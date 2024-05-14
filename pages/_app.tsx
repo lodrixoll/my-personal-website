@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <>
             <Head>
                 <title>Liam O&apos;Driscoll | Portfolio</title>
+                <link rel="stylesheet" href="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.css" />
             </Head>
             <Component {...pageProps} />
         </>
