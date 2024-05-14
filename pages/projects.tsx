@@ -6,16 +6,17 @@ import Link from 'next/link';
 
 const Projects = () => {
     const projects = [
-        { id: 1, icons: [Icons.trustloop, Icons.laravel, Icons.php, Icons.mysql, Icons.bootstrap], title: 'TrustLoop', description: 'Reputation management built for SaaS.', link: 'https://www.trustloop.co/' },
-        { id: 2, icons: [Icons.recall, Icons.openai, Icons.mongodb, Icons.express, Icons.reactIcon, Icons.node], title: 'Recall', description: 'Revisit any conversation.', link: 'https://www.recall-app.xyz/' },
-        { id: 3, icons: [Icons.aitc, Icons.openai, Icons.mongodb, Icons.express, Icons.reactIcon, Icons.node, Icons.tailwind], title: 'AITC', description: 'Real estate contract compliance.', link: 'https://github.com/lodrixoll/AITC-Server' },
-        { id: 4, icons: [Icons.favicon, Icons.vercel, Icons.nextjs, Icons.typescript, Icons.bootstrap], title: 'my-personal-website', description: 'This website. Feel free to clone it.', link: 'https://github.com/lodrixoll/my-personal-website' },
-        { id: 5, icons: [Icons.zy, Icons.laravel, Icons.php, Icons.mysql, Icons.reactIcon], title: 'ZY', description: 'Dropship any Amazon product on your store.', link: 'https://apps.shopify.com/amazon-post-purchase-upsell' },
-        { id: 6, icons: [Icons.copyninja, Icons.openai, Icons.postgresql, Icons.reactIcon, Icons.node, ], title: 'CopyNinja', description: 'Smart SEO content generation for ecommerce.', link: 'https://apps.shopify.com/copyninja' },
-        { id: 7, icons: [Icons.firetexts, Icons.openai, Icons.node, Icons.flutter, Icons.firebase], title: 'FireTexts', description: 'Automated SMS messaging.', link: 'https://www.firetexts.co/' },
-        { id: 8, icons: [Icons.python, Icons.tensorflow, Icons.keras], title: 'From Classification to Semantics', description: 'A comprehensive review of CNNs.', link: 'https://github.com/lodrixoll/classification-to-semantics' },
-        { id: 9, icons: [Icons.python], title: 'N-gram Language Model', description: 'Made from scratch in python.', link: 'https://github.com/lodrixoll/ngram-language-model' },
-        { id: 10, icons: [Icons.python], title: 'Sequence Labeling', description: 'Named entity recognition in python.', link: 'https://github.com/lodrixoll/sequence-labeling' }
+        { id: 1, icons: [Icons.docdoc, Icons.openai, Icons.vercel, Icons.nextjs, Icons.typescript, Icons.bootstrap], title: 'docdoc', description: 'Technical documentation comprehension.', link: 'https://doc-doc.vercel.app/' },
+        { id: 2, icons: [Icons.aitc, Icons.openai, Icons.mongodb, Icons.express, Icons.reactIcon, Icons.node, Icons.tailwind], title: 'AITC', description: 'Real estate contract compliance.', link: 'https://github.com/lodrixoll/AITC-Server' },
+        { id: 3, icons: [Icons.trustloop, Icons.laravel, Icons.php, Icons.mysql, Icons.bootstrap], title: 'TrustLoop', description: 'Reputation management built for SaaS.', link: 'https://www.trustloop.co/' },
+        { id: 4, icons: [Icons.recall, Icons.openai, Icons.mongodb, Icons.express, Icons.reactIcon, Icons.node], title: 'Recall', description: 'Revisit any conversation.', link: 'https://www.recall-app.xyz/' },
+        { id: 5, icons: [Icons.favicon, Icons.vercel, Icons.nextjs, Icons.typescript, Icons.bootstrap], title: 'my-personal-website', description: 'This website. Feel free to clone it.', link: 'https://github.com/lodrixoll/my-personal-website' },
+        { id: 6, icons: [Icons.zy, Icons.laravel, Icons.php, Icons.mysql, Icons.reactIcon], title: 'ZY', description: 'Dropship any Amazon product on your store.', link: 'https://apps.shopify.com/amazon-post-purchase-upsell' },
+        { id: 7, icons: [Icons.copyninja, Icons.openai, Icons.postgresql, Icons.reactIcon, Icons.node, ], title: 'CopyNinja', description: 'Smart SEO content generation for ecommerce.', link: 'https://apps.shopify.com/copyninja' },
+        { id: 8, icons: [Icons.firetexts, Icons.openai, Icons.node, Icons.flutter, Icons.firebase], title: 'FireTexts', description: 'Automated SMS messaging.', link: 'https://www.firetexts.co/' },
+        { id: 9, icons: [Icons.python, Icons.tensorflow, Icons.keras], title: 'From Classification to Semantics', description: 'A comprehensive review of CNNs.', link: 'https://github.com/lodrixoll/classification-to-semantics' },
+        { id: 10, icons: [Icons.python], title: 'N-gram Language Model', description: 'Made from scratch in python.', link: 'https://github.com/lodrixoll/ngram-language-model' },
+        { id: 11, icons: [Icons.python], title: 'Sequence Labeling', description: 'Named entity recognition in python.', link: 'https://github.com/lodrixoll/sequence-labeling' }
     ];
 
     return (
