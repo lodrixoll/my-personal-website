@@ -7,3 +7,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
+
+#gh {
+    clip-path: inset(0 0 10% 0); /* Adjust the 10% to suit the size of the watermark */
+}
