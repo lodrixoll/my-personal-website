@@ -5,7 +5,7 @@ import Activities from '../components/Activities';
 
 const Home: React.FC = () => {
     return (
-        <div className="container clamp">
+        <div className="container">
             <Navbar />
             <Info />
             <Activities />
