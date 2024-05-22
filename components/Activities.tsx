@@ -14,7 +14,7 @@ const Activities = () => {
                             <div className="d-flex">
                                 <Image src={Icons.openai} alt="OpenAI" width={50} height={50} className="img-fluid" style={{ borderRadius: '10%', marginInlineEnd: '1rem' }}/>
                                 <p className="card-text">
-                                    I'm learning how to use OpenAI, HuggingFace, LlamaIndex, TypeScript, BootStrap, Next.js 
+                                    I&apos;m learning how to use OpenAI, HuggingFace, LlamaIndex, TypeScript, BootStrap, Next.js 
                                     and Vercel to build AI based micro SaaS quickly.
                                 </p>
                             </div>
