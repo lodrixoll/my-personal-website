@@ -15,8 +15,8 @@ const Projects = () => {
         { id: 7, icon: Icons.copyninja, stack: ['OpenAI', 'Node.js', 'PostgreSQL', 'React', 'Heroku'], title: 'CopyNinja', description: 'Smart SEO content generation for ecommerce.', link: 'https://apps.shopify.com/copyninja' },
         { id: 8, icon: Icons.firetexts, stack: ['OpenAI', 'Node.js', 'Heroku', 'Flutter', 'Firebase'], title: 'FireTexts', description: 'Automated SMS messaging.', link: 'https://www.firetexts.co/' },
         { id: 9, icon: Icons.tensorflow, stack: ['Python', 'TensorFlow', 'Keras'], title: 'From Classification to Semantics', description: 'A comprehensive review of CNNs.', link: 'https://github.com/lodrixoll/classification-to-semantics' },
-        { id: 10, icon: Icons.python, stack: ['Python'], title: 'N-gram Language Model', description: 'Made from scratch in python.', link: 'https://github.com/lodrixoll/ngram-language-model' },
-        { id: 11, icon: Icons.python, stack: ['Python'], title: 'Sequence Labeling', description: 'Named entity recognition in python.', link: 'https://github.com/lodrixoll/sequence-labeling' }
+        { id: 10, icon: Icons.python, title: 'N-gram Language Model', description: 'Made from scratch in python.', link: 'https://github.com/lodrixoll/ngram-language-model' },
+        { id: 11, icon: Icons.python, title: 'Sequence Labeling', description: 'Named entity recognition in python.', link: 'https://github.com/lodrixoll/sequence-labeling' }
     ];
 
     return (
@@ -39,7 +39,7 @@ const Projects = () => {
                                         <h4 className="card-title mt-2" style={{ color: '#007BFF' }}>{project.title}</h4>
                                         <p className="card-text">{project.description}</p>
                                         <div className="d-flex justify-content-start align-items-center mb-2">
-                                            {project.stack.length > 0 && (
+                                            {project.stack && project.stack.length > 0 && (
                                                 <>
                                                     {project.stack.map((tech, index) => (
                                                         <span key={index} className="badge badge-primary" style={{ marginInlineEnd: '0.5rem'}}>{tech}</span>
