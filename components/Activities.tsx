@@ -14,9 +14,10 @@ const Activities = () => {
                             <div className="d-flex">
                                 <Image src={Icons.openai} alt="OpenAI" width={50} height={50} className="img-fluid" style={{ borderRadius: '10%', marginInlineEnd: '1rem' }}/>
                                 <p className="card-text">
-                                    I&apos;m learning how to use OpenAI, HuggingFace, LlamaIndex, TypeScript, BootStrap, Next.js 
+                                    I&apos;m learning how to use OpenAI, HuggingFace, LlamaIndex, TypeScript, TailwindCSS, Next.js 
                                     and Vercel to build AI based micro SaaS quickly.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -31,7 +32,7 @@ const Activities = () => {
                                 <p className="card-text">
                                     I work for a SaaS company
                                     <a href="https://trustloop.co" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF' }}> TrustLoop </a> 
-                                    that creates reputation management software for other SaaS & small businesses.
+                                    that creates reputation management software for other SaaS companies & small businesses.
                                 </p>
                             </div>
                         </div>
@@ -45,10 +46,12 @@ const Activities = () => {
                             <div className="d-flex">
                                 <Image src={Icons.figma} alt="Figma" width={50} height={50} className="img-fluid" style={{ marginInlineEnd: '1rem'}}/>
                                 <p className="card-text">
-                                    I have a passion for connecting complicated backend to visually pleasing and responsive designs
-                                    so I have been learning Figma, TailwindCSS and BootStrap.
+                                    I have a passion for creating visually pleasing and responsive designs
+                                    so I have been honing my skills with TailwindCSS, BootStrap, and Figma.
                                 </p>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -60,9 +63,12 @@ const Activities = () => {
                             <div className="d-flex">
                                 <Image src={Icons.vercel} alt="Vercel" width={50} height={50} className="img-fluid" style={{ marginInlineEnd: '1rem'}}/>
                                 <p className="card-text">
-                                    I am trying to deploy lots of projects this year with Vercel & Heroku. 
+                                    I&apos;m trying to deploy lots of projects this year. Vercel & Heroku are my current favorite hosting platforms. So far in 2024 I have deployed 4 projects.
                                 </p>
                             </div>
+
+
+
                         </div>
                     </div>
                 </div>
@@ -74,9 +80,11 @@ const Activities = () => {
                             <div className="d-flex">
                                 <Image src={Icons.nextjs} alt="Vercel" width={50} height={50} className="img-fluid" style={{ marginInlineEnd: '1rem'}}/>
                                 <p className="card-text">
-                                    So far have gotten 2nd place and two honorable mentions.
+                                    So far have gotten 2nd place (AI for Thought Hackathon) and two honorable mentions (Bluesky AI Hackathon & Stanford LLM x Law Hackathon).
                                 </p>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
