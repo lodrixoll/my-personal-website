@@ -7,8 +7,8 @@ import Link from 'next/link';
 const Projects = () => {
     const projects = [
         { id: 1, icon: Icons.docdoc, stack: ['OpenAI', 'TypeScript', 'Bootstrap', 'Next.js', 'Vercel'], title: 'docdoc', description: 'Technical documentation comprehension.', link: 'https://doc-doc.vercel.app/' },
-        { id: 2, icon: Icons.aitc, stack: ['OpenAI', 'MERN', 'Tailwind CSS', 'Vercel'], title: 'AITC', description: 'Real estate contract compliance.', link: 'https://github.com/lodrixoll/AITC-Server' },
-        { id: 3, icon: Icons.trustloop, stack: ['OpenAI', 'Laravel PHP', 'MySQL', 'Bootstrap'], title: 'TrustLoop', description: 'Reputation management built for SaaS.', link: 'https://www.trustloop.co/' },
+        { id: 2, icon: Icons.aitc, stack: ['OpenAI', 'MERN', 'Tailwind CSS'], title: 'AITC', description: 'Real estate contract compliance.', link: 'https://github.com/lodrixoll/AITC-Server' },
+        { id: 3, icon: Icons.trustloop, stack: ['OpenAI', 'Laravel PHP', 'MySQL', 'Bootstrap', 'Heroku'], title: 'TrustLoop', description: 'Reputation management built for SaaS.', link: 'https://www.trustloop.co/' },
         { id: 4, icon: Icons.recall, stack: ['OpenAI', 'MERN', 'Heroku'], title: 'Recall', description: 'Revisit any conversation.', link: 'https://www.recall-app.xyz/' },
         { id: 5, icon: Icons.favicon, stack: ['TypeScript', 'Bootstrap', 'Next.js', 'Vercel'], title: 'my-personal-website', description: 'This website. Feel free to clone it.', link: 'https://github.com/lodrixoll/my-personal-website' },
         { id: 6, icon: Icons.zy, stack: ['Laravel PHP', 'MySQL', 'React', 'Heroku'], title: 'ZY', description: 'Dropship any Amazon product on your store.', link: 'https://apps.shopify.com/amazon-post-purchase-upsell' },
