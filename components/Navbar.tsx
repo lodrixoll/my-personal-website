@@ -24,8 +24,14 @@ const Navbar = () => {
                     LinkedIn <i className="fas fa-external-link-alt" style={{ marginLeft: '4px' }}></i>
                 </button>
             </Link>
+            <Link href="https://calendly.com/lodrixoll/30min" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">
+                    Chat w/ me<i className="fas fa-external-link-alt" style={{ marginLeft: '4px' }}></i>
+                </button>
+            </Link>
             <Link href="mailto:lodrixoll@gmail.com" target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-outline-primary btn-lg mx-2 my-1 text-white">
+
                     Email <i className="fas fa-external-link-alt" style={{ marginLeft: '4px' }}></i>
                 </button>
             </Link>
